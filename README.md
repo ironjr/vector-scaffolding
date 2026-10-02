@@ -1,18 +1,23 @@
 # Vector Scaffolding: Inter-Scale Orchestration for Differentiable Image Vectorization
 
-**Jaerin Lee, Kanggeon Lee, and Kyoung Mu Lee**
+<p align="center">
+  <strong>Jaerin Lee, Kanggeon Lee, and Kyoung Mu Lee</strong><br>
+  Seoul National University
+</p>
 
-Seoul National University
+<p align="center">
+  <img src="img/logo_cvlab.png" alt="CVLab logo" width="240">
+</p>
 
-<img src="img/logo_cvlab.png" alt="CVLab logo" width="240">
-
-[![Paper](https://img.shields.io/badge/Paper-PDF-red)](https://arxiv.org/pdf/2605.11913)
-[![arXiv](https://img.shields.io/badge/arXiv-2605.11913-b31b1b)](https://arxiv.org/abs/2605.11913)
-[![Project Page](https://img.shields.io/badge/Project-Page-blue)](https://jaerinlee.com/research/vector-scaffolding/)
-
-**tl;dr**: Structure-aligned optimization schedule adds 1.4 dB PSNR in x2.5 shorter training time for image vectorization.
+<p align="center">
+  <a href="https://arxiv.org/pdf/2605.11913"><img src="https://img.shields.io/badge/Paper-PDF-red" alt="Paper"></a>
+  <a href="https://arxiv.org/abs/2605.11913"><img src="https://img.shields.io/badge/arXiv-2605.11913-b31b1b" alt="arXiv"></a>
+  <a href="https://jaerinlee.com/research/vector-scaffolding/"><img src="https://img.shields.io/badge/Project-Page-blue" alt="Project Page"></a>
+</p>
 
 ![Optimization comparison between Vector Scaffolding and Bézier Splatting](img/vector_scaffolding_demo.gif)
+
+**tl;dr**: Structure-aligned optimization schedule adds 1.4 dB PSNR in x2.5 shorter training time for image vectorization.
 
 ## Method
 
