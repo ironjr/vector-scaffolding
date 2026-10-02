@@ -6,15 +6,13 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2605.11913-b31b1b)](https://arxiv.org/abs/2605.11913)
 [![Project Page](https://img.shields.io/badge/Project-Page-blue)](https://jaerinlee.com/research/vector-scaffolding/)
 
-tl;dr: Structure-aligned optimization schedule adds 1.4 dB PSNR in x2.5 shorter training time for image vectorization.
+**tl;dr**: Structure-aligned optimization schedule adds 1.4 dB PSNR in x2.5 shorter training time for image vectorization.
 
-![Vector Scaffolding overview](img/vector_scaffolding_figure1.png)
-
-<img src="img/vector_scaffolding_figure1b.svg" alt="DIV2K reconstruction quality versus training time" width="440">
+![Optimization comparison between Vector Scaffolding and Bézier Splatting](img/vector_scaffolding_demo.gif)
 
 ## Method
 
-![Vector Scaffolding algorithm](img/vector_scaffolding_figure2.png)
+![Vector Scaffolding algorithm](img/vector_scaffolding_figure1.png)
 
 - **Interior Gradient Aggregation** uses gradients from curve interiors as well as boundaries.
 - **Progressive Stratification** adds smaller curves where reconstruction error remains, above older curves.
@@ -40,6 +38,8 @@ Install a CUDA toolkit matching your PyTorch build; see the [PyTorch installatio
 `gsplat/` references [XingtongGe/gsplat](https://github.com/XingtongGe/gsplat) at commit `bcca3ec`, the same Git submodule commit used by [Bézier Splatting](https://github.com/xiliu8006/Bezier_splatting). All rights to that implementation remain with its upstream authors; this repository references their code through the submodule. The installation command uses runtime CUDA compilation.
 
 ## Run on Kodak or DIV2K
+
+<img src="img/vector_scaffolding_figure1b.svg" alt="DIV2K reconstruction quality versus training time" width="440">
 
 Download [Kodak](https://r0k.us/graphics/kodak/) or the high-resolution training images from [DIV2K](https://data.vision.ee.ethz.ch/cvl/DIV2K/). Place the RGB images anywhere; the examples use:
 
