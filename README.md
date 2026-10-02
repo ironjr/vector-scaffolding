@@ -30,7 +30,7 @@ conda activate vector-scaffolding
 pip install torch==2.10.0 torchvision==0.25.0 --index-url https://download.pytorch.org/whl/cu128
 pip install -r requirements.txt
 git submodule update --init --recursive
-BUILD_NO_CUDA=1 pip install --no-build-isolation -e ./gsplat
+BUILD_NO_CUDA=1 pip install --no-build-isolation ./gsplat
 ```
 
 Install a CUDA toolkit matching your PyTorch build; see the [PyTorch installation commands](https://pytorch.org/get-started/previous-versions/).
