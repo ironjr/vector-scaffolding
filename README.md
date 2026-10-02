@@ -2,6 +2,10 @@
 
 **Jaerin Lee, Kanggeon Lee, and Kyoung Mu Lee**
 
+Seoul National University
+
+<img src="img/logo_cvlab.png" alt="CVLab logo" width="240">
+
 [![Paper](https://img.shields.io/badge/Paper-PDF-red)](https://arxiv.org/pdf/2605.11913)
 [![arXiv](https://img.shields.io/badge/arXiv-2605.11913-b31b1b)](https://arxiv.org/abs/2605.11913)
 [![Project Page](https://img.shields.io/badge/Project-Page-blue)](https://jaerinlee.com/research/vector-scaffolding/)
